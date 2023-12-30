@@ -11,8 +11,8 @@ var config = require("config");
 const punycode = require("punycode");
 var app = express();
 require("dotenv").config();
-
 const cors = require('cors');
+
 app.use(
   cors({
     origin: "*",
