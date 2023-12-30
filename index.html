@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qoutes</title>
+
+    <link rel="stylesheet" href="./style/styles.css">
+    <!-- <link rel="shortcut icon" href="./public/images/favicon.png" type="image/x-icon"> -->
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Quotes</h1>
+        <div class="checkbox-wrapper-54">
+            <label class="switch">
+                <input title="input" onclick="myFunction()" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+
+    <div class="input-box">
+        <h2>Add New Qoute</h2>
+
+        <label for="Qoute">Qoute:</label>
+        <input type="text" id="qoute" placeholder="Enter Qoute..." spellcheck required>
+        <br>
+        <label for="Author">Author:</label>
+        <input type="text" id="author" placeholder="Author..." spellcheck required>
+        <br>
+        <label for="Category">Category:</label>
+        <input type="text" id="category" placeholder="Category" spellcheck required>
+        <br>
+        <button class="submit-button" onclick="addQoute()">Add</button>
+    </div>
+
+    <div id="qoutes">
+
+    </div>
+
+    <div id="editForm" class="edit-form input-box" data-id="">
+        <h2>Edit Qoute</h2>
+        <label for="editTitle">Qoute:</label>
+        <input type="text" id="editQoute" required title="Qoute">
+        <label for="editModel">Author:</label>
+        <input type="text" id="editAuthor" required title="Author">
+        <label for="editPrice">Category:</label>
+        <input type="text" id="editCategory" required title="Category">
+        <button onclick="submitEditForm()" class="save-btn">Save</button>
+        <button onclick="closeEditForm()" class="cancel-btn">Cancel</button>
+    </div>
+
+    <script src="./index.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Quotes App</p>
+    </footer>
+
+    </body>
+
+</html>
