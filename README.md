@@ -1,4 +1,5 @@
 # API with NodeJS and MongoDB
+
 ## Description
 
 This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product model. It perform the following actions:
@@ -10,7 +11,6 @@ This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link]()
 
 ## 🚀 Live BackEnd Demo <a name="live-demo"></a>
@@ -19,8 +19,6 @@ This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product
 - [Live BackEnd Link]()
 
     To test the API you can use Postman or Insomnia
-
-
 
 ## Installation
 
@@ -52,14 +50,16 @@ nodemon ./bin/www
 You can also change the port in the bin/www and .env file.
 To test the API at port 3000 you can use Postman or Insomnia and perform the following requests:
 
-- Create a Product: POST http://localhost:3000/api/products
-- Read all Product: GET http://localhost:3000/api/products
+- Create a Product: POST http://localhost:3000/api/qoutes
+- Read all Product: GET http://localhost:3000/api/qoutes
 - Read a Product: GET http://localhost:3000/api/:id
 - Update a Product: PUT http://localhost:3000/api/:id
 - Delete a Product: DELETE http://localhost:3000/api/:id
 
 ## Contributing
+
 Issues and pull requests are welcome!
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
