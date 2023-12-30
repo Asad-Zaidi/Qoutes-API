@@ -122,17 +122,17 @@ input:checked + .slider:before {
 #qoutes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 20px;
 }
 
 .qoute {
     background-color: #fff;
     padding: 20px;
-    margin: 10px;
+    margin: 8px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    width: 300px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -143,7 +143,7 @@ input:checked + .slider:before {
 }
 
 .qoute p {
-    color: #555;
+    color: #000;
 }
 
 .edit-form {
