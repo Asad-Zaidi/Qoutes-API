@@ -13,7 +13,7 @@ This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product
 
 - [Live Demo](https://asad-zaidi.github.io/Qoutes-API/)
 
-## 🚀 Live BackEnd Demo <a name="live-demo"></a>
+## 🚀 [Live BackEnd Demo]
 
 - [Live BackEnd Link](https://asad-zaidi.github.io/Qoutes-API/)
 
@@ -42,6 +42,7 @@ To use this API you need to run the following command:
 ```bash
 node index.js 
 ```
+
 or
 
 ```bash
