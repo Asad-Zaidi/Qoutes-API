@@ -9,7 +9,7 @@ This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product
 - Update a Qoute
 - Delete a Qoute
 
-## 🚀 [Live Demo](#live-demo)
+## 🚀 [Live Demo]
 
 - [Live Demo](https://asad-zaidi.github.io/Qoutes-API/)
 
