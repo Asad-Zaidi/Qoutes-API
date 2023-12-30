@@ -52,11 +52,11 @@ nodemon ./bin/www
 You can also change the port in the bin/www and .env file.
 To test the API at port 3000 you can use Postman or Insomnia and perform the following requests:
 
-- Create a Product: POST http://localhost:3000/api/qoutes
-- Read all Product: GET http://localhost:3000/api/qoutes
-- Read a Product: GET http://localhost:3000/api/:id
-- Update a Product: PUT http://localhost:3000/api/:id
-- Delete a Product: DELETE http://localhost:3000/api/:id
+- Create a Product: POST [http://localhost:3000/api/qoutes]
+- Read all Product: GET [http://localhost:3000/api/qoutes]
+- Read a Product: GET [http://localhost:3000/api/:id]
+- Update a Product: PUT [http://localhost:3000/api/:id]
+- Delete a Product: DELETE [http://localhost:3000/api/:id]
 
 ## Contributing
 
