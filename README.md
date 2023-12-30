@@ -11,12 +11,11 @@ This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://asad-zaidi.github.io/Qoutes-API/)
 
 ## 🚀 Live BackEnd Demo <a name="live-demo"></a>
 
-
-- [Live BackEnd Link]()
+- [Live BackEnd Link](https://asad-zaidi.github.io/Qoutes-API/)
 
     To test the API you can use Postman or Insomnia
 
