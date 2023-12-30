@@ -13,23 +13,14 @@ var app = express();
 require("dotenv").config();
 
 const cors = require('cors');
-// app.use(
-//   cors({
-//     exposedHeaders: "Authorization",
-//     origin: "*",
-//     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-//     credentials: true,
-//     optionsSuccessStatus: 204,
-//   })
-// );
-app.use((req, res, next) => {
-  console.log('Request Origin:', req.get('Origin'));
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-  res.setHeader('Access-Control-Allow-Credentials', true);
-  next();
-});
+app.use(
+  cors({
+    origin: "*",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    credentials: true,
+    optionsSuccessStatus: 204,
+  })
+);
 
 // view engine setup
 // app.set("views", path.join(__dirname, "views"));
