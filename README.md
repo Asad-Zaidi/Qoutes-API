@@ -3,20 +3,20 @@
 
 This is a simple API with NodeJS and MongoDB. It is a simple CRUD with a Product model. It perform the following actions:
 
-- Create a Product
-- Read a Product
-- Update a Product
-- Delete a Product
+- Add a Qoute
+- Read Qoutes
+- Update a Qoute
+- Delete a Qoute
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://asad-zaidi.github.io/Restful-Api-MongoDB/)
+- [Live Demo Link]()
 
 ## 🚀 Live BackEnd Demo <a name="live-demo"></a>
 
 
-- [Live BackEnd Link](https://restful-api-mongo-db.vercel.app/api/products)
+- [Live BackEnd Link]()
 
     To test the API you can use Postman or Insomnia
 
