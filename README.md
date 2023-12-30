@@ -25,13 +25,12 @@ To install this API you need to have installed NodeJS and MongoDB. Then you need
 
 ```bash
 npm install
-```
+
 ```bash
 npm install mongoose
-```
+
 ```bash
 npm install express
-```
 
 ## Usage
 
