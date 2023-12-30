@@ -64,4 +64,4 @@ Issues and pull requests are welcome!
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is [MIT](./LICENSE) licensed.
