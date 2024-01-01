@@ -111,8 +111,6 @@ function submitEditForm() {
         });
 };
 
-
-
 function handleDelete(element) {
     let qouteElement = element.closest('.qoute');
     if (!qouteElement) {
