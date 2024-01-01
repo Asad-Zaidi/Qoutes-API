@@ -149,7 +149,6 @@ function closeEditForm() {
 
 document.body.innerHTML += '<div id="overlay" class="overlay"></div>';
 
-
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
