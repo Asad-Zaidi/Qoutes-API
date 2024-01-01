@@ -50,7 +50,6 @@ app.use(function (err, req, res, next) {
 mongoose
   .connect(config.get("db"))
   .then(async () => {
-    // for Global server
     console.log("Connected to MogoDB Successfully...!!!");
   })
   .catch((err) => {
